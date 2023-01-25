@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+
+  body {
+    background-color: rgb(178, 213, 248);
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /*
+
+
+
+
+  */
+
+.header{
+    height: 7vh;
+    background-color: #98FB98;
+}
+
+.navbar {
+    text-align: right;
+    line-height: 2vh;
+}
+
+
+.nav-options{
+    text-align: right;
+    text-decoration: none;
+    margin-right: 4vw;
+    font-size: 2vw;
+    vertical-align: middle;
+    line-height: normal;
+    color: black;
+}
+
+.logo{
+    width: 7vw;
+    height: 6vh;
+    text-align: left;
+    margin-right: 60vw;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.nav-options:hover{
+    padding: 0.9%;
+    color: white;
+    background-color: rgb(178, 213, 248);
+    transition-duration: 1s;
+}
+
+.container {
+    height: 93vh;
+}
+
+.cadastro-screen{
+	width: 40vw;
+    height: 60vh;
+	background: linear-gradient( #98FB98,  rgb(178, 245, 270));
+	border-radius: 4vh;
+	text-align: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 16.5vh;
+    margin-bottom: 16.5vh;
+    border-radius: 2vh;
+    align-items: center;
+	color: indigo;
+    padding-top: 3vh;
+}
+
+.cadastro-screen h3 {
+    font-size: 3.5vh;
+    padding-bottom: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+}
+
+.inputs{
+	width: 80%;
+	margin: 0 auto;
+	padding: 1vh;
+	border: none;
+	margin-bottom: 1.5vh;
+	border-radius: 2vh;
+
+}
+
+.btn{
+	padding: 1vh;
+	width: 80%;
+	margin: 0 auto;
+    margin-top: 5vh;
+	border-radius: 2vh;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, orangered, orange);
+	cursor: pointer;
+}
+
+.description{
+	color: indigo;
+	font-size: 2vh;
+	margin-top: 3vh;
+}
+
+

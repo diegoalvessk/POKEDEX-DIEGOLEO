@@ -1,0 +1,80 @@
+.header {
+    height: 7vh;
+    background-color: #98FB98;
+}
+
+.navbar {
+    text-align: right;
+    line-height: 2vh;
+}
+
+.nav-options {
+    text-align: right;
+    text-decoration: none;
+    margin-right: 4vw;
+    font-size: 2vw;
+    vertical-align: middle;
+    line-height: normal;
+    color: black;
+}
+
+.logo {
+    width: 7vw;
+    height: 6vh;
+    text-align: left;
+    margin-right: 60vw;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.nav-options:hover {
+    padding: 0.9%;
+    color: white;
+    background-color: rgb(178, 213, 248);
+    transition-duration: 1s;
+}
+
+.content {
+    height: 93vh;
+    background-color: rgb(147, 226, 255);
+    text-align: center;
+}
+
+.pokemons {
+    width: 80vw;
+    margin-top: 15vh;
+    display: inline-block;
+}
+
+.pokemon {
+    background-color: white;
+    height: 350px;
+    width: 22.66vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    overflow: hidden;
+    float: left;
+}
+
+.imagens {
+    height: 340px;
+    width: 300px;
+}
+
+.Nomepokemon {
+    height: 4vh;
+    width: 22.66vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    overflow: hidden;
+    float: left;
+}
+
+.pokemon:hover {
+    border: solid #98FB98;
+}
+
+.Subtitle {
+    float: left;
+    margin-top: 1vh;
+}

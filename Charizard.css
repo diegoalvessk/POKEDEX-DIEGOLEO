@@ -1,0 +1,313 @@
+.header {
+    height: 7vh;
+    background-color: hsl(120, 93%, 79%);
+}
+
+.header2 {
+    height: 7vh;
+    background-color: hsl(89, 96%, 60%);
+}
+
+.navbar {
+    text-align: right;
+    line-height: 2vh;
+}
+
+.nav-options {
+    text-align: right;
+    text-decoration: none;
+    margin-right: 4vw;
+    font-size: 2vw;
+    vertical-align: middle;
+    line-height: normal;
+    color: black;
+}
+
+.logo {
+    width: 7vw;
+    height: 6vh;
+    text-align: left;
+    margin-right: 60vw;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.nav-options:hover {
+    padding: 0.9%;
+    color: rgb(0, 149, 255);
+    background-color: hsl(89, 96%, 60%);
+    transition-duration: 1s;
+}
+
+.content {
+    height: 86vh;
+    background-color: rgb(0, 247, 255);
+    text-align: center;
+}
+
+.PokemonOpition {
+    height: 7vh;
+    width: 33.3vw;
+    float: left;
+    border: solid rgb(0, 149, 255)0.2vh;
+}
+
+.PokemonOpition:hover{
+    background-color: rgb(0, 247, 255);
+    transition-duration: 0.8s;
+}
+
+.bordaMeio {
+    border-left: solid rgb(0, 149, 255)0.2vh;
+    border-right: solid rgb(0, 149, 255)0.2vh;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.PokemonInformation {
+    width: 20vw;
+    height: 40vh;
+    margin-top: 3vh;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 1vw;
+}
+
+.PokemonInformation:hover {
+    width: 40vw;
+    height: 40vh;
+    margin-top: 3vh;
+    display: inline-block;
+    transition: 0.7s;
+    border-radius: 1vw;
+}
+
+.imagemPosition {
+    float: left;
+}
+
+.imagem {
+    height: 40vh;
+    width: 20vw;
+    border: solid rgb(0, 149, 255) 1vw;
+    background-color: white;
+    float: left;
+}
+
+.informations {
+    background-color: rgb(0, 149, 255);
+    height: 40vh;
+    width: 20vw;
+    border: solid rgb(0, 149, 255);
+    float: left;
+}
+
+.textoPrincipal {
+    margin-top: 2vh;
+    text-align: left;
+}
+
+.Ask {
+    color: white;
+}
+
+.left {
+    float: left;
+    margin-top: 3vh;
+    width: 6vw;
+}
+
+.leftResponse {
+    float: left;
+    margin-top: 1.5vh;
+    width: 6vw;
+}
+
+.right {
+    float: right;
+    margin-top: 3vh;
+    width: 9vw;
+}
+
+.rightResponse {
+    float: right;
+    margin-top: 1.5vh;
+    width: 9vw;
+}
+
+.PowerInformations {
+    width: 35vw;
+    margin-top: 2vh;
+    display: inline-block;
+    height: 40vh;
+
+}
+
+.statusBar {
+    width: 35vw;
+    background-color: hsl(120, 93%, 79%);
+    height: 5vh;
+    padding-top: 1vh;
+}
+
+.PowerInfomation {
+    width: 8.46vw;
+    height: 5vh;
+    border-right: solid hsl(120, 93%, 79%)0.2vw;
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    float: left;
+}
+
+.HP {
+    background-color: rgb(113, 255, 121);
+}
+.Attack{
+    background-color: rgb(234, 96, 96);
+}
+.Defense{
+    background-color: rgb(255, 255, 128);
+}
+.SpAtk{
+    background-color: rgb(61, 129, 255);
+}
+.SpDef{
+    background-color: rgb(255, 105, 250);
+}
+.Speed{
+    background-color: rgb(255, 196, 77);
+}
+
+
+.textLeft {
+    margin-left: 0.5vw;
+    margin-top: 1vh;
+    float: left;
+}
+
+.textRight {
+    margin-right: 0.5vw;
+    margin-top: 1vh;
+    float: right;
+}
+
+.hpCollor {
+    width: 8.75vw;
+    height: 5vh;
+    background-color: rgb(0, 255, 13);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    float: left;
+}
+
+.hpNoCollor {
+    width: 17.79vw;
+    height: 5vh;
+    background-color: rgb(113, 255, 121);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    border-right: solid hsl(120, 93%, 79%)0.2vw;
+    float: left;
+}
+
+.AtkCollor {
+    width: 10.75vw;
+    height: 5vh;
+    background-color: red;
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    float: left;
+}
+
+.AtkNoCollor {
+    width: 15.79vw;
+    height: 5vh;
+    background-color: rgb(234, 96, 96);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    border-right: solid hsl(120, 93%, 79%)0.2vw;
+    float: left;
+}
+
+.DefCollor {
+    width: 10.75vw;
+    height: 5vh;
+    background-color: rgb(255, 255, 53);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    float: left;
+}
+
+.DefNoCollor {
+    width: 15.79vw;
+    height: 5vh;
+    background-color: rgb(255, 255, 128);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    border-right: solid hsl(120, 93%, 79%)0.2vw;
+    float: left;
+}
+
+.SpAtkCollor {
+    width: 13.75vw;
+    height: 5vh;
+    background-color: rgb(0, 89, 255);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    float: left;
+}
+
+.SpAtkNoCollor {
+    width: 12.79vw;
+    height: 5vh;
+    background-color: rgb(61, 129, 255);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    border-right: solid hsl(120, 93%, 79%)0.2vw;
+    float: left;
+}
+
+.SpDefCollor {
+    width: 10.75vw;
+    height: 5vh;
+    background-color: rgb(255, 0, 195);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    float: left;
+}
+
+.SpDefNoCollor {
+    width: 15.79vw;
+    height: 5vh;
+    background-color: rgb(255, 105, 250);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    border-right: solid hsl(120, 93%, 79%)0.2vw;
+    float: left;
+}
+
+.SpeedCollor {
+    width: 13.75vw;
+    height: 5vh;
+    background-color: rgb(255, 179, 0);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    float: left;
+}
+
+.SpeedNoCollor {
+    width: 12.79vw;
+    height: 5vh;
+    background-color: rgb(255, 196, 77);
+    border-top: solid hsl(120, 93%, 79%)0.2vh;
+    border-bottom: solid hsl(120, 93%, 79%)0.2vh;
+    border-right: solid hsl(120, 93%, 79%)0.2vw;
+    float: left;
+}
+
+
+
+
